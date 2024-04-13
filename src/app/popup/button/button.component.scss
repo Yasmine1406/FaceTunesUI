@@ -1,0 +1,19 @@
+@import "../../../Style-Variabes.scss";
+.button-border{
+    border: solid;
+    border-color: $color-green;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+    border-width: 2px 4px 6px 8px;
+}
+
+.button-border:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button-text{
+    font-family: $font;
+    padding: 10px;
+    text-align: center;
+}
