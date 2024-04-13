@@ -11,6 +11,5 @@ export class PopupComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  @Input() startCamera: EventEmitter<void> = new EventEmitter<void>();
 
 }
