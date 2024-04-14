@@ -5,6 +5,7 @@ import { WebcamModule } from 'ngx-webcam';
 import { AppComponent } from './app.component';
 import { PopupComponent } from './popup/popup.component';
 import { CameraComponent } from './popup/camera/camera.component';
+import { MusicComponent } from './music/music.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CameraComponent } from './popup/camera/camera.component';
   ],
   imports: [
     BrowserModule,
-    WebcamModule
+    WebcamModule,
+    MusicComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
