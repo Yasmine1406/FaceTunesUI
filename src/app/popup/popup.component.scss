@@ -1,0 +1,12 @@
+@import "../../Style-Variabes.scss";
+.rectangle{
+    margin-top: 100px;
+    border: solid;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    border-color: $color-light-grey;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+

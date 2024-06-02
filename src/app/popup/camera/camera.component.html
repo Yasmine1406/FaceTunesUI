@@ -1,0 +1,16 @@
+<div class="camera">
+  <div class="container mt-5">
+    <div class="col-md-12">
+      <webcam
+        [trigger]="invokeObservable"
+        (imageCapture)="captureImg($event)"
+      ></webcam>
+    </div>
+    <div class="col-md-12">
+      <button class="button" (click)="recommendMusic()">
+        Launch Music
+      </button>
+    </div>
+  </div>
+</div>
+
